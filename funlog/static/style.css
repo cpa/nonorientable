@@ -1,0 +1,40 @@
+// Colors from http://www.colourlovers.com/palette/1473/Ocean_Five
+
+body {
+    margin-top: 3%;
+    margin-right: 20%;
+    margin-left: 20%;
+    background-color: #EDC951;
+    font-family: 'Molengo', sans-serif;
+}
+
+header {
+    //background-color: grey;
+}
+
+h2 {
+    color: #00A0B0;
+    //color: #CC333F;
+    //color: #EB6841;
+    font-size: 300%;
+    text-align: right;
+}
+
+footer {
+    margin-top: 3%;
+    text-align: center;
+}
+
+article {
+    margin-top: 0%;
+}
+
+p {
+    text-indent: 3%;
+    text-align: justify;
+}
+
+.funfacttext {
+    color: black;
+    text-align: justify;
+}
