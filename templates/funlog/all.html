@@ -1,16 +1,18 @@
 {% extends "base.html" %}
 {% load markup %}
-{% block title %}{% endblock %}
+{% block title %}Tous les funfacts{% endblock %}
 
 {% block content %}
+{% for funfact in funfacts %}
 <div class='funfactbox'>
   <article>
     <header>
-      <h2>{{funfact.title}}</h2>
+      <a href='{{ funfact.urltext }}'><h2>{{ funfact.title }}</h2></a>
     </header>
     <div class='funfacttext'>
       {{ funfact.text|markdown }}
     </div>
   </article>
 </div>
+{% endfor %}
 {% endblock %}

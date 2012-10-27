@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+  <head>
+    <title>{% block title %}My amazing site{% endblock %}</title>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans|Molengo' rel='stylesheet' type='text/css'>
+    <link type="text/css" rel="stylesheet" href="static/style.css">
+  </head>
+  <body>
+    <header></header>
+    <div class='content'>
+      {% block content %}{% endblock %}
+    </div>
+    <footer>À propos | Tous les funfacts | Mentions légales</footer>
+  </body>
+</html>

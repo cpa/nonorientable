@@ -1,14 +1,29 @@
-<!DOCTYPE HTML>
-<html>
-  <head>
-    <title> </title>
-    <link type="text/css" rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header></header>
-    <p>
-      Bla bla bla
-    </p>
-    <footer>À propos | Mentions légales</footer>
-  </body>
-</html>
+{% extends "base.html" %}
+{% block title %}À propos{% endblock %}
+
+{% block content %}
+<h3>C'est quoi Non-orientable&nbsp;?</h3>
+En mai 2011, j'ai commencé à envoyer des fun facts à mes camarades de classe. Et puis de plus en plus de gens s'y sont intéréssés. Et puis voilà.
+
+<h3>Qui sont les auteurs&nbsp;?</h3>
+Il n'y en a qu'un et tu le connais probablement : Charles-Pierre Astolfi. Il répond à ses mails à l'adresse <span class="reverse">gro.snarc@apc
+</span>
+
+<h3>Tes sources sont en anglais&nbsp;!</h3>
+C'est comme ça.
+
+<h3>C'est un blog&nbsp;?</h3>
+Pas vraiment.
+
+<h3>C'est quoi un fun fact&nbsp;?</h3>
+Comme son nom l'indique, c'est un FAIT. Parfois avec une analyse. Parfois pas.
+
+<h3>Il y a des fun facts que je ne comprends pas.</h3>
+C'est probablement mieux ainsi. Mon lectorat étant majoritairement des camarades de classe. Et puis, je n'ai pas de ligne éditoriale. 
+
+<h3>On peut commenter&nbsp;?</h3>
+Peut-être pourra-t-on un jour.
+
+<h3>Pourquoi les liens pointent vers archive.org&nbsp;?</h3>
+Pour éviter qu'ils 404 s'ils sont supprimés du site original.
+{% endblock %}
