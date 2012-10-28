@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+  <head>
+    <title>{% block title %}— Non-orientable{% endblock %}</title>
+    <link href='http://fonts.googleapis.com/css?family=Molengo' rel='stylesheet' type='text/css'>
+    <link type="text/css" rel="stylesheet" href="../static/style.css">
+  </head>
+  <body>
+    <header><a href="{%url index %}"><h1>Non-orientable</h1></a></header>
+    <div class='content'>
+      {% block content %}{% endblock %}
+    </div>
+    <footer><a href="{% url apropos %}">À propos</a> | <a href="{% url all %}">Tous les funfacts</a> | <a href="{% url legal %}">Mentions légales</a></footer>
+  </body>
+</html>
