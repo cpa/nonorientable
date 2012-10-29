@@ -5,8 +5,9 @@ body {
     margin-right: 20%;
     margin-left: 20%;
     background-color: #EDC951;
-    font-family: 'Molengo', sans-serif;
-}
+    /* font-family: 'Molengo', sans-serif; */
+    font-family: CallunaSans-Regular;
+—
 
 a:link {
     color: #6A4A3C;
